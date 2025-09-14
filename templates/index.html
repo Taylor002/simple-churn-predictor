@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Churn Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Simple Churn Predictor</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <p>Upload a CSV file with columns: Tenure, Balance, Transactions, Complaints</p>
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Predict Churn</button>
+    </form>
+</body>
+</html>
