@@ -1,6 +1,6 @@
 # Simple Churn Predictor
 
-🚀 A beginner-friendly AI project that predicts customer churn based on basic features.
+🚀 The Simple Churn Predictor is a Python-based web application that predicts customer churn for businesses. It allows users to input customer data and provides a prediction of whether a customer is likely to leave, helping companies make data-driven retention decisions.
 
 ## Features
 - Upload CSV with `Tenure, Balance, Transactions, Complaints`
